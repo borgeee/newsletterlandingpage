@@ -1,3 +1,2 @@
-# lig-exam
-From Wireframe to Frontend Implementation.
-Web Designer Technical Exam
+# life is good
+Wireframe to Frontend Implementation.
