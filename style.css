@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+1p');
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.carousel-item > img {
+	height:100vh;
+}
+
+h2{
+	text-align: center;
+	color: #000;
+	text-transform: uppercase;
+}
+
+figcaption{
+	border: 1px solid #1ca809;
+	width: 140px;
+	background-color: #fff;
+	margin-top: -20px;
+	position: absolute;
+}
+
+.category{
+	background-color: #1ca809;
+	color: #fff;
+	padding: 2px 15px;
+}
+
+.post{
+	margin-bottom: 50px;
+}
+.mbtn{
+	width: auto;
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+.btn-more{
+	border-style: none;
+	background-color: #333;
+	color:#fff;
+	padding: 8px 80px;
+	text-align: center;
+	width: auto;
+	transition: ease .1s all;
+}
+
+.btn-more:hover{
+	background-color: #1ca809;
+}
+
+.banner{
+	border: 1px solid #333;
+	text-align: center;
+	padding: 30px;
+	margin-bottom: 30px;
+}
+
+.banner img{
+	width: 100%;
+}
+
+.media{
+	position: relative;
+	border-bottom: 1px solid #333;
+	margin-bottom: 16px;
+}
+
+.media:last-child{
+	border: none;
+}
+
+#ranking{
+	margin-bottom: 50px;
+}
+
+p.ranking {
+	position: absolute;
+	top: 0;
+	background-color: #1ca809;
+	color: #fff;
+	font-size: .8em;
+	padding: 5px 12px;
+}
+
+p.rank-text{
+	font-size: .8em;
+}
+
+.socialmedia{
+	text-align: center;
+}
+
+.socialmedia ul li{
+	list-style-type: none;
+	display: inline;
+}
+
+.fab {
+	color: #333;
+	transition: ease .2s all;
+}
+
+.fab:hover {
+	color: #1ca809;
+}
+
+footer{
+	background-color: #333;
+	color: #fff;
+}
+
+#footernav{
+	text-align: center;
+}
+
+#footernav ul,
+#footernav li{
+	padding: 30px 0;
+	margin: 0;
+}
+
+#footernav ul li,
+#footernav a{
+	font-family: 'M PLUS 1p', sans-serif;
+	color: #fff;
+	list-style-type: none;
+	display: inline;
+	text-decoration: none;
+	transition: ease .1s all;
+	padding: 0 10px;
+}
+
+#footernav a:hover{
+	color: #888;
+}
+
+#copyright{
+	border-top:1px solid #fff;
+	text-align: right;
+	padding: 20px 50px;
+	text-align: center;
+}
+
+/*Desktop*/
+@media(min-width: 768px){
+
+	.container-1{
+		width: 90%;
+	}
+	#copyright{
+		text-align: right;
+	}
+}
+
