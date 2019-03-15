@@ -1,2 +1,3 @@
-# lig_exam
-From Wireframe to Frontend Implementation
+# lig-exam
+From Wireframe to Frontend Implementation.
+Web Designer Technical Exam
